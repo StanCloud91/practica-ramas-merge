@@ -16,4 +16,8 @@ function agregarALaPantalla(value) {
     const valorPantalla = document.getElementById('pantalla').value;
     document.getElementById('pantalla').value= valorPantalla.slice(0,-1)
   }
+
+  function alert() {
+    alert(document.getElementById('pantalla').value);
+  }
   
