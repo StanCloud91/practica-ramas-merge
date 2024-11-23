@@ -18,6 +18,7 @@ function agregarALaPantalla(value) {
   }
 
   function alert() {
-    alert(document.getElementById('pantalla').value);
+    const valorPantalla = document.getElementById('pantalla').value;
+    alert(valorPantalla);
   }
   
